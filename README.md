@@ -145,31 +145,3 @@ Season: `2025`
 4. The app loads all data on launch using `async/await` parallel fetches.
 
 > **Note:** The MLB Stats API is public and does not require an API key.
-
----
-
-## ✅ Requirements Checklist
-
-- [x] MLB Stats API integration (4 endpoints)
-- [x] `Codable` model structs
-- [x] `ObservableObject` ViewModel with `@Published`
-- [x] `async/await` network calls with `URLSession`
-- [x] MVVM architecture
-- [x] Multiple pages (4 tabs)
-- [x] Custom font styling (3 tiers: title, heading, body)
-- [x] Heading accent color (Braves red / gold)
-- [x] Image/visual (baseball field Canvas drawing, hero logo)
-- [x] Visual modifications (gradients, overlays, opacity)
-- [x] ScrollView + VStack layout
-- [x] 3+ card sections on home screen
-- [x] Padding, rounded corners, shadows
-- [x] 3+ data points from API displayed
-- [x] `@StateObject` / `@EnvironmentObject` state management
-- [x] Loading/skeleton states
-- [x] Error handling
-
----
-
-## 📦 Dependencies
-
-None — pure SwiftUI + Foundation only.
